@@ -56,31 +56,21 @@ export function Register(){
             isAllInfoOK = false;
         }
 
-        console.log ('Ar user OK:', isAllInfoOK);
-
         if (!isValidEmail(email)) {
             isAllInfoOK = false;
         }
-
-        console.log ('Ar email OK:', isAllInfoOK);
 
         if (!isValidPhone(phone)) {
             isAllInfoOK = false;
         }
 
-        console.log ('Ar phone OK:', isAllInfoOK);
-
         if (!isValidPassword(pass)) {
             isAllInfoOK = false;
         }
         
-        console.log ('Ar pass OK:', isAllInfoOK);
-
         if (!isValidPassword(repass)) {
             isAllInfoOK = false;
         }
-
-        console.log ('Ar repass OK:', isAllInfoOK);
 
         if (tos !== true) {
             isAllInfoOK = false;
@@ -96,28 +86,28 @@ export function Register(){
                     <h1 className={style.mainTitle + " h3 mb-3 font-weight-normal"}>Please sign in</h1>
                     
                     <div className="form-floating">
-                        <label htmlFor="inputUserName" className="sr-only fs-2">User Name</label>
                         <input onChange={handleChangeUserName} value={username} type="text" id="username" className="form-control" placeholder="User name" required="" autoFocus="" />
+                        <label htmlFor="inputUserName">User Name</label>
                     </div>                                        
                     
                     <div className="form-floating">
-                    <label htmlFor="inputEmail" className="sr-only fs-2">Email address</label>
-                    <input onChange={handleChangeEmail} value={email} type="email" id="inputEmail" className="form-control" placeholder="Email address" required="" />
+                        <input onChange={handleChangeEmail} value={email} type="email" id="inputEmail" className="form-control" placeholder="Email address" required="" />
+                        <label htmlFor="inputEmail">Email address</label>
                     </div>
 
                     <div className="form-floating">
-                    <label htmlFor="inputPhone" className="sr-only fs-2">Phone number</label>
-                    <input onChange={handleChangePhone} value={phone} type="tel" id="inputPhone" className="form-control" placeholder="Email address" required="" />
+                        <input onChange={handleChangePhone} value={phone} type="tel" id="inputPhone" className="form-control" placeholder="Email address" required="" />
+                        <label htmlFor="inputPhone">Phone number</label>
                     </div>
                     
                     <div className="form-floating">
-                    <label htmlFor="inputPassword" className="sr-only fs-2">Password</label>
-                    <input onChange={handleChangePassword} value={pass} type="password" id="inputPassword" className="form-control" placeholder="Password" required="" />
+                        <input onChange={handleChangePassword} value={pass} type="password" id="inputPassword" className="form-control" placeholder="Password" required="" />
+                        <label htmlFor="inputPassword">Password</label>
                     </div>
 
                     <div className="form-floating">
-                        <label htmlFor="inputPasswordRepeat" className="sr-only fs-2">Repeat Password</label>
                         <input onChange={handleChangeRepeatedePassword} value={repass} type="password" id="inputPasswordRepeat" className="form-control" placeholder="Password" required="" />
+                        <label htmlFor="inputPasswordRepeat">Repeat Password</label>
                     </div>
 
                     <div className="form-floating">
