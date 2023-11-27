@@ -5,6 +5,7 @@ import { HomePage } from './pages/HomePage';
 import { RegisterPage } from './pages/RegisterPage';
 import { NoPage } from './pages/NoPage';
 import { TosPage } from './pages/TosPage';
+import { ListingPage } from './pages/ListingPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route index path='/bit_10_bootstrap-site/' element={<HomePage />}/>
         <Route path='/bit_10_bootstrap-site/services' element={<ServicesPage />}/>
+        <Route path='/bit_10_bootstrap-site/listing' element={<ListingPage />}/>
         <Route path='/bit_10_bootstrap-site/register' element={<RegisterPage />}/>
         <Route path='/bit_10_bootstrap-site/tos' element={<TosPage />}/>
 

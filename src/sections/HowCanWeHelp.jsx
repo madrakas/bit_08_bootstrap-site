@@ -4,17 +4,16 @@ import { useState } from "react";
 export function HowCanWeHelp() {
     const [data, setData] = useState([]);
     const [isError, setIsError] = useState(false);
-    
+
     useEffect(() =>{
         fetch('http://localhost:3000/bit_10_bootstrap-site/data/help0.json')
         .then(res => res.json())
         .then(resData => setData(resData.services))
         .catch(err => setIsError(true));
-        // .then(() => console.log(data));
     },[]);
-
-    const emptyServices = <div className="col-12">Loading services data...</div>;
     
+    console.log(data);
+    const emptyServices = <div className="col-12">Loading services data...</div>;
     const servicesList =   data.map((service, idx) => (
         <div key={idx} className="col">
             <div className="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
@@ -39,10 +38,7 @@ export function HowCanWeHelp() {
         <div className="container px-4 py-5 text-center" id="featured-3">
             <h2 className="pb-2 border-bottom text-center">How we can help?</h2>
             <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                
-                  {content}
-                
-                
+                {content}
             </div>
         </div>
 

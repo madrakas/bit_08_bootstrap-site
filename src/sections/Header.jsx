@@ -16,6 +16,7 @@ export function Header(){
                 <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                     <li><Link to="/bit_10_bootstrap-site/" className="nav-link px-2 link-primary">Home</Link></li>
                     <li><Link to="/bit_10_bootstrap-site/services" className="nav-link px-2">Services</Link></li>
+                    <li><Link to="/bit_10_bootstrap-site/listing" className="nav-link px-2">Listing</Link></li>
                 </ul>
 
                 <div className="col-md-3 text-end">

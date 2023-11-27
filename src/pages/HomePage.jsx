@@ -3,7 +3,7 @@ import { Services } from "../sections/Services";
 import { Footer } from "../sections/Footer";
 import { Hero } from "../sections/Hero";
 import { BusinessGrowth } from "../sections/BusinessGrowth";
-import { HowCanWeHelp } from "../sections/HowCanWeHalp";
+import { HowCanWeHelp } from "../sections/HowCanWeHelp";
 
 export function HomePage(){
     return(
