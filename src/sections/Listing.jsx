@@ -4,6 +4,7 @@ import { useState } from "react";
 export function Listing(){
     const [option, setOption] = useState('-');
     const [dict, setDict] = useState([]);
+    
 
     useEffect(() => {
         if (option === '-'){

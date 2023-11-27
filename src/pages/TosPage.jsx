@@ -1,13 +1,7 @@
-import { Header } from "../sections/Header";
-import { Footer } from "../sections/Footer";
-
 
 export function TosPage() {
     return(
-
-        <div className="container">
-            <Header />
-
+        <>
             <div className="row">
                 <h1 className="col-12">Terms of Service</h1>
             </div>
@@ -19,7 +13,6 @@ export function TosPage() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus doloremque quisquam, recusandae architecto minus reiciendis?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, eum.</p>
             </div>
-            <Footer />
-        </div>
+        </>
     );
 }
