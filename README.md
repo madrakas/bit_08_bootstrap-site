@@ -3,7 +3,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# BIT Full stack developer course – Part 8. React bootstrap website
+# BIT Full stack developer course – Part 8. React + Bootstrap website
 
 _My journey to become a full stack developer_
 
@@ -11,7 +11,7 @@ _My journey to become a full stack developer_
 
 ## 🌟 About
 
-This project is a part of my workbook from Full stack developers course at BIT This is the 8th part of the course –  React bootstrap website.
+This project is a part of my workbook from Full stack developers course at BIT This is the 8th part of the course –  React + Bootstrap website.
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
@@ -29,7 +29,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 7. [React intro. Initialisation](https://github.com/madrakas/bit_07_react_intro)
     1. [Practice No.1. React page design](https://github.com/madrakas/bit_07_01_homework_simple-react-page-design)
     2. [Practice No.2. React calculator](https://github.com/madrakas/bit_07_02_homework_calculator)
-8. React bootstrap site (current repository)
+8. React + bootstrap site (current repository)
 
 ## 🎯 Project features/goals
 
