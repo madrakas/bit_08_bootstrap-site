@@ -1,6 +1,6 @@
 {
-  "homepage": "http://madrakas.github.io/bit_10_bootstrap-site",
-  "name": "bit_10_bootstrap-site",
+  "homepage": "http://madrakas.github.io/bit_08_bootstrap-site",
+  "name": "bit_08_bootstrap-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.1.1"
   }
 }
