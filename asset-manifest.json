@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bit_08_bootstrap-site/static/css/main.ef7b1e3b.css",
+    "main.js": "/bit_08_bootstrap-site/static/js/main.ff774b62.js",
+    "static/media/hero.jpg": "/bit_08_bootstrap-site/static/media/hero.5b82ec5794bea26cc324.jpg",
+    "static/media/businessGrowth.png": "/bit_08_bootstrap-site/static/media/businessGrowth.090a17ad6851396ca0e4.png",
+    "static/media/ufo.webp": "/bit_08_bootstrap-site/static/media/ufo.9e75a1aaa2034568e1c3.webp",
+    "index.html": "/bit_08_bootstrap-site/index.html",
+    "static/media/dog.svg": "/bit_08_bootstrap-site/static/media/dog.5cc558dc1fed4d876d0ac8681e9943cd.svg",
+    "main.ef7b1e3b.css.map": "/bit_08_bootstrap-site/static/css/main.ef7b1e3b.css.map",
+    "main.ff774b62.js.map": "/bit_08_bootstrap-site/static/js/main.ff774b62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef7b1e3b.css",
+    "static/js/main.ff774b62.js"
+  ]
+}
